@@ -56,7 +56,7 @@ var toggleClass = function toggleClass(el, className) {
 var changeIndexPlus = function changeIndexPlus() {
     var currentImage = mainImage.src;
     var url = currentImage.split('/');
-    var src = url[5];
+    var src = url[4];
     var img = "img/".concat(src);
     var currentIndex = images.indexOf(img);
 
@@ -78,7 +78,7 @@ var changeIndexPlus = function changeIndexPlus() {
 var changeIndexMinus = function changeIndexMinus() {
     var currentImage = mainImage.src;
     var url = currentImage.split('/');
-    var src = url[5];
+    var src = url[4];
     var img = "img/".concat(src);
     var currentIndex = images.indexOf(img);
 
